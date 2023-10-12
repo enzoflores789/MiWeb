@@ -1,5 +1,32 @@
-body{
-background-image: url();
-background-size:cover
+
+
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px
+    margin-top: 50px;
 }
 
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu > li :hover{
+    background-color: red;
+}
+
+.menu{
+    
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
